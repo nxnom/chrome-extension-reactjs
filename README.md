@@ -1,15 +1,15 @@
-# 🚀 Welcome to your new awesome project!
+#Chrome extension template with react.js, webpack, babel and tailwind
 
 This project has been created using **webpack-cli**, you can now run
 
 ```
-npm run build
+npm run watch
 ```
 
 or
 
 ```
-yarn build
+yarn watch
 ```
 
-to bundle your application
+to develop extension.
