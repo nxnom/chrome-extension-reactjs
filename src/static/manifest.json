@@ -1,0 +1,20 @@
+{
+  "manifest_version": 3,
+  "name": "My extension",
+  "version": "1.0.0",
+  "description": "My extension",
+  "author": "ebrain",
+  "action": {
+    "default_popup": "popup.html"
+  },
+  "options_page": "options.html",
+  "background": {
+    "service_worker": "background.js"
+  },
+  "content_scripts": [
+    {
+      "matches": ["<all_urls>"],
+      "js": ["content-script.js"]
+    }
+  ]
+}
