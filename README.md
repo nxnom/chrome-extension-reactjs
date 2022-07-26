@@ -1,4 +1,4 @@
-#Chrome extension template with react.js, webpack, babel and tailwind
+# Chrome extension template with react.js, webpack, babel and tailwind
 
 This project has been created using **webpack-cli**, you can now run
 
